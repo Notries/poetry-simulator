@@ -1,0 +1,100 @@
+/* Colors using Adobe Color Wheel */
+.myclass {
+    border: 4px solid #E04871;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 2px 3px 5px rgb(0, 0, 0, 0.7);
+    transition: all 0.2s ;
+}
+
+#navigation {
+    text-align: right;
+    float: right;
+    /* width: 300px; */
+    padding: 10px;
+}
+
+.imageHolder {
+    line-height: .6;
+    font-size: 13px;
+}
+
+.bodyclass {
+    background-color:rgb(0, 0, 0);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* fade transition: https://codepen.io/Angelfire/pen/mdbpPx */
+button {
+    background: #E04871;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px rgb(0, 0, 0, 0.7);
+    transition: all 0.2s ;
+}
+
+button:hover {
+    background-color: #D14369;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+h4 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+table {
+    border: 4px solid rgb(0, 0, 0, 1);
+    transition: all 0.2s ;
+}
+
+td, th {
+    padding: 0 15px;
+}
+
+#app {
+    background: #D14369;
+    border: 4px solid #E04871;
+    box-shadow: 0px 2px 3px (rgba(0, 0, 0, .3));
+    transition: all 0.2s ;
+}
+
+#messageBox {
+    overflow: hidden;
+    height: 118px;
+    width: 500px;
+}
+
+#poemBox {
+    overflow: hidden;
+    height: 2000px;
+    width: 500px;
+}
+
+textarea {
+    height: 150px;
+    width: 300px;
+}
+
+#leftSide {
+    display: inline-block;
+    width: 465px;
+}
+
+#buttonTable {
+    /* flex: 1; */
+    width: 450px;
+    height: 115px;
+    line-height: 10px;
+}
+
+#poemInput {
+    display: inline-block;
+    vertical-align: top;
+}
